@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <title>Blog</title>
+        <style>
+            list {
+                float: right;
+                margin: 0 0 0 0;
+                width: 30%;
+                }
+            new {
+                float: left;
+                margin: 0 0 0 0;
+                width: 70%;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="function.js"></script>
+        <div><input id="search"></input><button onclick="self.location.href='#search'">搜尋</button></div>
+        <br>
+        <section id="content">
+            <input id="title" type="text"><br>
+            <textarea id="text"></textarea><br>
+            <button onclick="Create()">發文</button>
+        </section>
+
+    </body>
+</html>
